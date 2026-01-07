@@ -5,7 +5,7 @@ pipeline {
         stage('Triggered from GitHub') {
             steps {
                 sh '''
-                echo "Hello from Jenkins"
+                echo "Hello from ramana"
                 whoami
                 pwd
                 ls -la
